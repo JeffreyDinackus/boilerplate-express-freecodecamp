@@ -1,16 +1,30 @@
-/* the 'body' selector is required for the tests to pass */
-/* You can change the style attributes if you want */
-body {
-  background-color: #222;
-  color: #ddd;
-  text-align: center;
-  font-family: sans-serif;
-}
-
 h1 {
-  font-size: 4em;
+  font-family: 'Alegreya';
 }
 
-input[type=text], label {
-  margin-bottom: 8px;
+body {
+  font-family: 'Source Sans Pro';
+  width: 50%;
+  margin-left: 25%;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  color: #fff;
+}
+
+#generate {
+  background-color: #09f;
+}
+
+#copy {
+  background-color: #0c6;
 }
